@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh ;
+    background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(167,166,166,0.7),url(/Users/DELL/Downloads/clb16.jpg));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 90vw;
+    display: flex;
+}
+.container .panel{
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    flex: 0.5;
+    color: white;
+    font-size: 24px;
+    white-space: nowrap;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: flex 0.5s ease-in;
+}
+.container .panel h3{
+    position: absolute;
+    content: "";
+    bottom: 5%;
+    left: 10px;
+    opacity: 0;
+}
+.container .panel.active{
+    flex: 5;
+}
+.container .panel.active h3{
+    opacity: 1;
+}

@@ -1,0 +1,240 @@
+
+body{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu{
+    width: 1000px;
+    height: 80px;
+}
+#menu #logo{
+    background-color: black;
+    width: 350px;
+    height: 80px;
+    float: left;
+}
+#menu #top{
+    background-color: black;
+    width: 650px;
+    height: 80px;
+    float: left;
+}
+#menu #top ul{
+    padding: 0px;
+    height: 20px;
+}
+#menu #top ul li{
+    list-style: none;
+    float: left;
+}
+#menu #top ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    font-style: oblique;
+    padding: 0px 48px 0px 50px;
+    font-size: 17px;  
+}    
+
+#menu #top ul li a:hover{
+    color: red;
+}
+#menu #logo img{
+    width: 100px;
+    height: 80px;
+    margin-left: 86px;
+}
+
+.slide{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 1px;
+    border-radius: 10px;
+    position: relative;
+}
+.slide:hover .dieuhuong{
+    display: block;
+}
+.chuyen-slide{
+    width: 9999px;
+    transition: all 0.5s;
+}
+.slide img{
+    width: 1000px;
+    height: 450px;
+    float: left;
+}
+.dieuhuong{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top :45%;
+    padding-left: 20px;
+    display: none;
+}
+
+.dieuhuong i:last-child{
+    position: relative;
+    left : 905px;
+}
+.banner{
+    width: 1000px;
+    height: 140px;
+}
+.banner h2 {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.banner p{
+    margin-left: 305px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.chung{
+    width: 1000px;
+    height: 328px;
+    
+}
+.chunghoanhi{
+    width: 333px;
+    height: 333px;
+    float:left;
+}
+.chunghoanhi img{
+    width: 320px;
+    height: 333px;
+    border-radius: 15px;
+}
+.chungtubi{
+    width: 333px;
+    height: 333px;
+    float: left;
+}
+.chungtubi img{
+    width: 320px;
+    height: 333px;
+    border-radius: 15px;
+   
+}
+.chunganlac{
+    width: 333px;
+    height: 333px;
+    float: left;
+}
+.chunganlac img{
+    width: 320px;
+    height: 333px;
+    border-radius: 15px;
+}
+
+.tenchung{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.hoanhi{
+    height: 100px;
+    font-style: oblique;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    width: 333px;
+    color: black;
+}
+.hoanhi h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.hoanhi h2 span{
+    animation: animate 3s linear infinite;
+    animation-delay: calc(0.1s *var(--i)) ;
+}
+.kick {
+    width: 1000px;
+    height: 70px;
+    color: white;
+}
+.kick ul{
+    margin-top: -87px;
+    line-height: 50px;
+    font-size: 22px;
+}
+.kick ul li{
+    list-style: none;
+}
+.kick ul li a {
+    color: white;
+}
+.tubi{
+    font-size: 18px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 333px;
+    margin-top: -18px;
+    margin-left: 125px;
+    font-style: oblique;
+}
+.anlac{
+    font-size: 18px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 333px;
+    font-style: oblique;
+    margin-top: -18px;
+    margin-left: 84px;
+
+
+}
+@keyframes animate{
+    0%{
+        color: black;
+        filter: blur(2px) hue-rotate(360deg);
+        text-shadow: 0px 0px 10px #00b3ff,
+                    0px 0px 20px #00b3ff,
+                    0px 0px 40px #00b3ff,
+                    0px 0px 80px #00b3ff,
+                    0px 0px 120px #00b3ff,
+                    0px 0px 160px #00b3ff,
+                    0px 0px 200px #00b3ff,
+                    0px 0px 300px #00b3ff,;  
+    }
+    30%,
+    70%{
+        color:black;
+        filter: blur(2px) hue-rotate(360deg);
+        text-shadow: 0px 0px 10px #00b3ff,
+                    0px 0px 20px #00b3ff,
+                    0px 0px 40px #00b3ff,
+                    0px 0px 80px #00b3ff,
+                    0px 0px 120px #00b3ff,
+                    0px 0px 160px #00b3ff,
+                    0px 0px 200px #00b3ff,
+                    0px 0px 300px #00b3ff,;  
+    }
+    0%{
+        color: transparent;
+        filter: blur(2px) hue-rotate(360deg);
+        text-shadow: none;
+    }
+}
+.diachi{
+    background-color: red;
+    width: 1000px;
+    text-align: center;
+    color: #fff;
+    clear: left;
+}
+.diachi ul li{
+    list-style: none;
+    line-height: 26px;
+}
+
+
+
+
